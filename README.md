@@ -6,7 +6,7 @@
 
 # readpaper-skills
 
-[ReadPaper](https://github.com/<your-username>/ReadPaper) 项目的配套 Claude Code Skill 插件包。
+[ReadPaper](https://github.com/CrisChenYingyan/ReadPaper) 项目的配套 Claude Code Skill 插件包。
 包含 4 个可独立使用的 Skill，用于学术论文的 PDF 转换与 AI 深度阅读分析。
 
 ## 包含 Skill
@@ -23,7 +23,7 @@
 ### 方法一：Windows PowerShell
 
 ```powershell
-git clone https://github.com/<your-username>/readpaper-skills.git
+git clone https://github.com/CrisChenYingyan/readpaper-skills.git
 # 将 skills 复制到你的项目
 xcopy readpaper-skills\.claude\skills\ <your-project>\.claude\skills\ /E /I /Y
 ```
@@ -31,7 +31,7 @@ xcopy readpaper-skills\.claude\skills\ <your-project>\.claude\skills\ /E /I /Y
 ### 方法二：macOS / Linux
 
 ```bash
-git clone https://github.com/<your-username>/readpaper-skills.git
+git clone https://github.com/CrisChenYingyan/readpaper-skills.git
 cp -r readpaper-skills/.claude/skills/ <your-project>/.claude/skills/
 ```
 
@@ -65,7 +65,7 @@ your-project/
     └── cors_server.py              # 来自主项目（在线版需要）
 ```
 
-推荐直接使用 [ReadPaper](https://github.com/<your-username>/ReadPaper) 主项目，已包含所有脚本和目录结构。
+推荐直接使用 [ReadPaper](https://github.com/CrisChenYingyan/ReadPaper) 主项目，已包含所有脚本和目录结构。
 
 ## License
 
