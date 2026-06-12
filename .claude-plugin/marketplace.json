@@ -1,0 +1,14 @@
+{
+  "name": "readpaper-marketplace",
+  "version": "1.0.0",
+  "description": "ReadPaper skills marketplace by CrisChenYingyan",
+  "owner": { "name": "CrisChenYingyan" },
+  "plugins": [
+    {
+      "name": "readpaper-skills",
+      "description": "Academic paper reading assistant skills for Claude Code",
+      "version": "1.0.0",
+      "source": "./"
+    }
+  ]
+}

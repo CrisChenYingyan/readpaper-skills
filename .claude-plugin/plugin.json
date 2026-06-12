@@ -1,0 +1,16 @@
+{
+  "name": "readpaper-skills",
+  "description": "Academic paper reading assistant: PDF→MD conversion and AI-powered DOCX note generation for Claude Code",
+  "version": "1.0.0",
+  "author": { "name": "CrisChenYingyan" },
+  "homepage": "https://github.com/CrisChenYingyan/readpaper-skills",
+  "repository": "https://github.com/CrisChenYingyan/readpaper-skills",
+  "license": "CC BY-NC 4.0",
+  "keywords": ["reading", "pdf", "docx", "research", "academic", "mineru", "notes"],
+  "skills": [
+    "./skills/阅读并总结文献",
+    "./skills/批量阅读并总结文献",
+    "./skills/驱动MinerU执行PDF→MD转换",
+    "./skills/在线MinerU执行PDF→MD转换"
+  ]
+}
